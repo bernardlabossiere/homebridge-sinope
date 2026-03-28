@@ -69,6 +69,7 @@ export class SinopeThermostatAccessory {
       .on('get', this.handleCurrentTemperatureGet.bind(this));
 
     this.service.getCharacteristic(this.platform.Characteristic.TargetTemperature)
+      .setProps({ minValue: 8, minStep: 0.5 })
       .on('get', this.handleTargetTemperatureGet.bind(this))
       .on('set', this.handleTargetTemperatureSet.bind(this));
 
