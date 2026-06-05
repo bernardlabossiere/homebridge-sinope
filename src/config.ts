@@ -3,4 +3,6 @@ export interface SinopePlatformConfig {
   username?: string;
   password?: string;
   locationid?: string;
+  minTemperature?: number;
+  maxTemperature?: number;
 }

@@ -30,6 +30,20 @@
         "type": "string",
         "required": false,
         "default": ""
+      },
+      "minTemperature": {
+        "title": "Minimum Temperature",
+        "description": "Minimum target temperature allowed in HomeKit (default: 7.5\u00b0C)",
+        "type": "number",
+        "required": false,
+        "default": 7.5
+      },
+      "maxTemperature": {
+        "title": "Maximum Temperature",
+        "description": "Maximum target temperature allowed in HomeKit (default: 30\u00b0C)",
+        "type": "number",
+        "required": false,
+        "default": 30
       }
     }
   }
