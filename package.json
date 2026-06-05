@@ -2,7 +2,7 @@
   "private": false,
   "displayName": "Homebridge Sinope with configurable temperature",
   "name": "homebridge-sinope-neviweb-minmax",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Unofficial Homebridge plugin for Sinope/Neviweb thermostats with configurable min/max temperature. Fork of homebridge-sinope by frobichaud.",
   "license": "MIT",
   "repository": {

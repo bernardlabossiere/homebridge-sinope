@@ -25,6 +25,40 @@ Install the plugin:
 sudo npm install -g homebridge-sinope-devices
 ```
 
+
+## Fork Features (by @bernardlabossiere)
+
+This fork adds configurable minimum and maximum temperature parameters.
+
+### Configuration
+
+```json
+{
+  "platform": "Sinope",
+  "username": "username@email.com",
+  "password": "P@ssw0rd!",
+  "url": "https://neviweb.com/api",
+  "minTemperature": 7.5,
+  "maxTemperature": 30
+}
+```
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `minTemperature` | number | 7.5 | Minimum target temperature allowed in HomeKit (°C) |
+| `maxTemperature` | number | 30 | Maximum target temperature allowed in HomeKit (°C) |
+
+## Fork Changelog
+
+### [1.0.6] - 2026-06-05
+- Updated README with documentation for new parameters
+
+### [1.0.5] - 2026-06-05
+- Initial fork release published on npm as homebridge-sinope-neviweb-minmax
+- Added configurable minTemperature and maxTemperature parameters
+- Added fields in Homebridge UI configuration (no manual JSON editing needed)
+- Updated package.json with author info and contributor credit to original author frobichaud
+
 ## Configuration
 
 Add the `Sinope` platform in your Homebridge `config.json` file, by replacing the username and password with your Neviweb credentials:
