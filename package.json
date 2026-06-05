@@ -1,16 +1,16 @@
 {
   "private": false,
-  "displayName": "Homebridge Sinope",
+  "displayName": "Homebridge Sinope with configurable temperature",
   "name": "homebridge-sinope-devices",
-  "version": "1.0.3",
-  "description": "Unofficial API for Sinope thermostats",
+  "version": "1.0.4",
+  "description": "Unofficial Homebridge plugin for Sinope/Neviweb thermostats with configurable min/max temperature. Fork of homebridge-sinope by frobichaud.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/frobichaud/homebridge-sinope.git"
+    "url": "https://github.com/bernardlabossiere/homebridge-sinope.git"
   },
   "bugs": {
-    "url": "https://github.com/frobichaud/homebridge-sinope/issues"
+    "url": "https://github.com/bernardlabossiere/homebridge-sinope/issues"
   },
   "engines": {
     "node": ">=14.18.1",
@@ -25,7 +25,17 @@
     "prepare": "npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "sinope",
+    "sinope",
+    "neviweb",
+    "thermostat",
+    "baseboard heater",
+    "electric heating",
+    "anti-frost",
+    "chauffage electrique"
   ],
   "dependencies": {
     "async-await-queue": ">=2.1.4",
@@ -42,5 +52,14 @@
     "rimraf": "^3.0.2",
     "ts-node": "^10.3.0",
     "typescript": "^4.4.4"
-  }
+  },
+  "author": "Bernard Labossiere",
+  "contributors": [
+    {
+      "name": "frobichaud",
+      "url": "https://github.com/frobichaud",
+      "note": "Original author of homebridge-sinope"
+    }
+  ],
+  "homepage": "https://github.com/bernardlabossiere/homebridge-sinope#readme"
 }
