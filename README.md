@@ -35,7 +35,9 @@ Add the `Sinope` platform in your Homebridge `config.json` file, by replacing th
       "platform": "Sinope",
       "username": "username@email.com",
       "password": "P@ssw0rd!",
-      "url": "https://neviweb.com/api"
+      "url": "https://neviweb.com/api",
+      "minTemperature": 7.5,
+      "maxTemperature": 30
     }
   ]
 }
