@@ -22,7 +22,7 @@ RM Series Load Controllers
 
 Install the plugin:
 ```
-sudo npm install -g homebridge-sinope-devices
+sudo npm install -g homebridge-sinope-neviweb-minmax
 ```
 
 
