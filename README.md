@@ -50,6 +50,9 @@ This fork adds configurable minimum and maximum temperature parameters.
 
 ## Fork Changelog
 
+### [1.0.9] - 2026-06-05
+- Updated README changelog (added 1.0.7 and 1.0.8 entries)
+
 ### [1.0.8] - 2026-06-05
 - Fixed installation command in README (homebridge-sinope-neviweb-minmax)
 
